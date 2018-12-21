@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Radio | Guia Estereo</title>
+	<link rel="stylesheet" type="text/css" href="./css/styles.css"/>
+</head>
+<body style="background:url('fondo2.jpg');background-repeat: no-repeat;background-size: 100%;background-position: center center;background-attachment: fixed;background-size: cover;background-color: #37353a">
+<center>
+<br><br><br><br><br><br><h1 style="color: #fecc00;font-family: consolas">www.guiaestereo.com</h1><br><br><br><br>
+<img src="logo.jpg" itemprop="image" alt="Guía Estéreo - Bogotá" style="border-radius:170px" width="100%" >
+		<br><br>
+
+ <audio id="demo" controls="controls" autoplay="autoplay" 
+ preload="auto" style="width:100%;display: none" >
+<source src="http://51.15.160.78:8556/;">
+</audio>
+<div>
+
+  <button id="boton" onclick="document.getElementById('demo').play()"><img src="play.png" alt="80" width="80"></button>
+
+  <button id="boton" onclick="document.getElementById('demo').pause()"><img src="pause.png" alt="80" width="80"></button>
+
+
+</div>
+<br><br>
+
+</center>
+
+<style>
+	#boton{
+		background-color: transparent;border-color: transparent;
+		}
+
+</style> 
+						
+
+</body>
+</html>
